@@ -10,6 +10,12 @@ const nextConfig = {
             },
             {
                 protocol: "https",
+                hostname: "abdulbasit-self.vercel.app",
+                port: "",
+                pathname: "/**",
+            },
+            {
+                protocol: "https",
                 hostname: "cdn.sanity.io",
                 port: "",
                 pathname: "/**",

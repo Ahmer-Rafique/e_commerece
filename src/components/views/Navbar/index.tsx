@@ -34,7 +34,7 @@ const Navbar = () => {
                         <Image width={500} height={500} src={"/Logo.webp"} alt="Logo" />
                     </Link>
                     <div className="hidden lg:flex justify-between items-center w-full">
-                        <ul className="flex space-x-4 font-medium text-lg text-blue-900">
+                        <ul className="flex space-x-4 font-medium text-lg text-blue-800">
                             {NavbarArray.map((item: NavbarItemType, index: number) => (
                                 <li key={index} className="flex items-center relative rounded-sm px-3 py-1 hover:bg-gray-100 cursor-pointer group">
                                     <Link href={item.href} >{item.label}</Link>

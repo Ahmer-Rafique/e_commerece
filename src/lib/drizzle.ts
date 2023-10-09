@@ -3,7 +3,7 @@ import { sql } from '@vercel/postgres';
 import { InferModel } from 'drizzle-orm';
 import { integer, pgTable, serial, text, timestamp, varchar } from 'drizzle-orm/pg-core';
 
-export const cartTableDrizzle = pgTable("cart", {
+export const cartTableDrizzle = pgTable("cart2", {
     product_id: varchar("product_id", { length: 255 }).notNull(),
     quantity: integer("quantity"),
     user_id: varchar("user_id", { length: 255 }).notNull(),

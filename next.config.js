@@ -20,12 +20,12 @@ const nextConfig = {
                 port: "",
                 pathname: "/**",
             },
-            // // {
-            // //     protocol: "https",
-            // //     hostname: "ahmer-rafique-portfolio.vercel.app",
-            // //     port: "",
-            // //     pathname: "/**",
-            // },
+            {
+                protocol: "https",
+                hostname: "ahmer-rafique-portfolio.vercel.app",
+                port: "",
+                pathname: "/**",
+            },
             {
                 protocol: "https",
                 hostname: "lh3.googleusercontent.com",

@@ -86,12 +86,15 @@ export default Navbar
 const MobileNavbar = () => {
     return (
         <div className="w-full px-6 py-4 bg-gray-100">
+            <Link href={"/cart"}>
+                        <Cartstate />
+                    </Link>
             {
                 NavbarArray.map((item: NavbarItemType, index: number) => {
                     return (
                         <Expand key={index} item={item} />
-                    )
-                })
+                    )                    
+                })               
             }
         </div>
     )

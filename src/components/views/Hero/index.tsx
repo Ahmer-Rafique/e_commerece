@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="space-y-6 max-w-sm">
                 <button
                     aria-label="redirect the user to sale page"
-                    className="rounded-md bg-primaryWhite text-blue-700 font-medium px-4 py-2"
+                    className="rounded-md bg-primaryWhite  text-blue-700 font-medium px-4 py-2"
                 >
                     Sale 70%
                 </button>
@@ -19,7 +19,7 @@ const Hero = () => {
                 <p className="text-gray-700">Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
                 <button
                     aria-label="redirect the user to sale page"
-                    className="flex gap-3 items-center rounded-sm text-lg ring-1 ring-slate-800 bg-gray-800 text-white font-semibold py-3 px-5"
+                    className="flex gap-3 items-center rounded-sm text-lg ring-1 ring-slate-800 bg-gray-800 hover:bg-gray-600 text-white font-semibold py-3 px-5"
                 >
                     <BsCart2 />
                     <p className="whitespace-pre leading-4">

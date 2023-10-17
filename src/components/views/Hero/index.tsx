@@ -13,7 +13,7 @@ const Hero = () => {
                     aria-label="redirect the user to sale page"
                     className="rounded-md bg-primaryWhite  text-blue-700 font-medium px-4 py-2"
                 >
-                    
+                    Sale 70%
                 </button>
                 <h1 className="text-4xl md:text-6xl text-gray-800 font-bold">An Industrial Take on Streetwear</h1>
                 <p className="text-gray-700">Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>

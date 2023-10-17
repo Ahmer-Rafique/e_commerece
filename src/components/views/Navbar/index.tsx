@@ -63,10 +63,10 @@ const Navbar = () => {
                     <div className="cursor-pointer" onClick={() => setNavbarOpen(!isNavbarOpen)}>
                         {isNavbarOpen ?
                             <div className="flex lg:hidden">
-                                <IoMdClose size={29} />
+                                <IoMdClose color="red" size={29} />
                             </div>
                             :
-                            <div className="flex lg:hidden">
+                            <div className="flex lg:hidden ">
                                 <GiHamburgerMenu size={25} />
                             </div>
                         }

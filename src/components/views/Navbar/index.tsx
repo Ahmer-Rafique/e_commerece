@@ -67,7 +67,7 @@ const Navbar = () => {
                             </div>
                             :
                             <div className="flex lg:hidden ">
-                                <GiHamburgerMenu size={25} />
+                                <GiHamburgerMenu  />
                             </div>
                         }
                     </div>
